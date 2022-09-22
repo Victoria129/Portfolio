@@ -1,54 +1,50 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    margin: 0px;
+    margin: 0;
     background-image: url("./assets/bg\ image.png.png");
   }
-
-  .first-section{
+  .first-section {
     display: flex;
   }
-  header{
+  header {
     background-color: rgb(239, 244, 249);
   }
-  a{
+  a {
     text-decoration: none;
     color: black;
   }
-  
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
-    
   }
-  .h1{
+  .h1 {
     font-family: myFont;
     font-size: 25px;
     font-weight: 700;
     line-height: 52px;
   }
-  p{
+  p {
     font-family: myFont;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
   }
-  h3{
+  h3 {
     color: rgb(0, 170, 255);
     font-family: myFont;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
-  .social-media{
+  .social-media {
     display: flex;
-    align-items: baseline;
-    
+    align-items: baseline; 
   }
-  #a{
+  #a {
     display: flex;
     padding-right: 25px;
   }
