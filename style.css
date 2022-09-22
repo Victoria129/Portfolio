@@ -11,23 +11,23 @@
   }
 
   body {
-    background-color: #E5E5E5;
-    margin: 0px;
-    padding: 0px;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
   }
 
   .first-wrapper {
-    margin: 0px;
+    margin: 0;
     background-image: url("./assets/bg\ image.png.png");
-    border-radius:0px 0px 0px 50px;
-    background-color: #FFFFFF;
+    border-radius: 0 0 0 50px;
+    background-color: #FFF;
     padding: 20px;
   }
 
   .header {
-    background-color: #FFFFFF;
-    margin: 0px;
-    padding:0px 20px;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0 20px;
   }
 
   nav {
@@ -39,7 +39,7 @@
   }
 
   a {
-    color: #6070FF;
+    color: #6070ff;
     text-decoration: none;
   }
 
@@ -57,7 +57,7 @@
   }
 
   h3 {
-    color: #6070FF;
+    color: #6070ff;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -77,10 +77,10 @@
   }
 
   .poppins {
-  font-family: Poppins-bold, sans-serif;
+    font-family: Poppins-bold, sans-serif;
   }
 
   .poppins-regular {
-  font-family: Poppins-regular, sans-serif;
+    font-family: Poppins-regular, sans-serif;
   }
 }
