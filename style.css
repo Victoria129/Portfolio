@@ -20,12 +20,12 @@
     margin: 0;
     background-image: url("./assets/bg\ image.png.png");
     border-radius: 0 0 0 50px;
-    background-color: #FFF;
+    background-color: #fff;
     padding: 20px;
   }
 
   .header {
-    background-color: #FFF;
+    background-color: #fff;
     margin: 0;
     padding: 0 20px;
   }
