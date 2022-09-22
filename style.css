@@ -4,6 +4,7 @@
     font-family: Poppins-Regular;
     src: url(./Poppins.ttf);
   }
+  
   body {
     margin: 0;
     background-image: url("./assets/bg\ image.png.png");
@@ -31,14 +32,14 @@
   }
 
   .h1 {
-    font-family: Poppins-Regular;
+    font-family: Poppins-Regular, sans-serif;
     font-size: 25px;
     font-weight: 700;
     line-height: 52px;
   }
 
   p {
-    font-family: Poppins-Regular;
+    font-family: Poppins-Regular, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -46,7 +47,7 @@
 
   h3 {
     color: rgb(0, 170, 255);
-    font-family: Poppins-Regular;
+    font-family: Poppins-Regular, sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
