@@ -4,12 +4,15 @@
     margin: 0;
     background-image: url("./assets/bg\ image.png.png");
   }
+
   .first-section {
     display: flex;
   }
+
   header {
     background-color: rgb(239, 244, 249);
   }
+
   a {
     text-decoration: none;
     color: black;
@@ -44,6 +47,7 @@
     display: flex;
     align-items: baseline; 
   }
+  
   #a {
     display: flex;
     padding-right: 25px;
