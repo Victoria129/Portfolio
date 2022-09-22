@@ -4,6 +4,7 @@
     font-family: myFont;
     src: url(./Poppins.ttf);
   }
+  
   body {
     margin: 0;
     background-image: url("./assets/bg\ image.png.png");
@@ -29,6 +30,7 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
   .h1 {
     font-family: myFont;
     font-size: 25px;
@@ -50,12 +52,15 @@
     font-size: 20px;
     line-height: 24px;
   }
+
   .social-media {
     display: flex;
-    align-items: baseline; 
+    align-items: baseline;
   }
+
   #a {
     display: flex;
     padding-right: 25px;
   }
+
 }
