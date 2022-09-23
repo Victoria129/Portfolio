@@ -120,7 +120,7 @@
     border-radius: 0 50px 0 0;
     background-color: #fff;
     padding: 20px;
-    }
+  }
 
   #about-ul {
     justify-content: left;
@@ -145,7 +145,7 @@
     list-style-type: none;
     float: left;
     background-color: #ebebff;
-    color:#6070ff;
+    color: #6070ff;
     padding: 4px 12px;
     margin-right: 8px;
     border-radius: 10px;
@@ -177,7 +177,7 @@
     list-style-type: none;
     text-decoration: none;
     padding-left: 0;
-  } 
+  }
 
   li.language-end {
     display: flex;
@@ -188,7 +188,6 @@
     margin-left: 0px;
     border-radius: 10px;
     padding-left: 0;
-    margin: 10px;
     font-size: medium;
   }
 
@@ -210,15 +209,15 @@
 
   ul.social-media-icons {
     padding-bottom: 30px;
-  } 
+  }
 
   h4.poppins-regular {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .arrow {
     margin-right: 40px;
   }
-  }
-
+}
