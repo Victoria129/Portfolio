@@ -218,7 +218,6 @@
   }
 
   footer {
-    
     margin: 0;
     background-image: url("./assets/bg\ image.png.png");
     border-radius: 0 50px 0 0;
@@ -271,7 +270,7 @@
     padding-left: 10px;
     padding-right: 0;
   }
-  
+
   textarea {
     font-family: Poppins-regular, sans-serif;
     box-sizing: border-box;
@@ -282,17 +281,16 @@
     padding-left: 10px;
     margin: 10px 0;
   }
-  
+
   .footer-container .poppins {
     color: #fff;
     text-align: center;
     font-size: 40px;
     line-height: 52px;
-  } 
+  }
 
   .footer-container .poppins-regular {
     color: #fff;
     text-align: center;
-  } 
-
+  }
 }
