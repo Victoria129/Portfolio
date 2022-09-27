@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 600px) {
   @font-face {
     font-family: Poppins-bold;
@@ -217,4 +216,81 @@
     grid-template-columns: auto;
     padding: 7px;
   }
+
+  footer {
+    
+    margin: 0;
+    background-image: url("./assets/bg\ image.png.png");
+    border-radius: 0 50px 0 0;
+    background-color: #6070ff;
+    padding: 20px;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 auto;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  li.form-field {
+    width: 100%;
+  }
+
+  .form-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-field {
+    font-family: Poppins-regular, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    height: 40px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    padding-right: 0;
+  }
+  
+  textarea {
+    font-family: Poppins-regular, sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 120px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 10px 0;
+  }
+  
+  .footer-container .poppins {
+    color: #fff;
+    text-align: center;
+  } 
+
+  .footer-container .poppins-regular {
+    color: #fff;
+    text-align: center;
+  } 
+
 }
