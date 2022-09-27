@@ -286,6 +286,8 @@
   .footer-container .poppins {
     color: #fff;
     text-align: center;
+    font-size: 40px;
+    line-height: 52px;
   } 
 
   .footer-container .poppins-regular {
