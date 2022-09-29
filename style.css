@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+
   @font-face {
     font-family: Poppins-bold;
     src: url(./Poppins.ttf);
@@ -35,6 +35,12 @@
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .nav-list {
+    display: none;
+    width: 0;
+    height: 0;
   }
 
   a {
@@ -293,4 +299,166 @@
     color: #fff;
     text-align: center;
   }
+
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .first-wrapper {
+    background-repeat: no-repeat;
+    background-image: url(./assets/bg-img-desktop.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: none;
+    width: 0;
+    height: 0; 
+  }
+
+  .nav-list {
+    font-family: Poppins-regular, sans-serif;
+    display: flex;
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    margin: 0 3rem;
+  }
+
+  .nav-list li {
+    margin: 0 1rem;
+    color: #344563;
+  }
+
+  .text-wrapper h1 {
+    max-width: 330px;
+    margin: 1rem 1rem 0.5rem 0;
+  }
+
+  .text-wrapper p {
+    margin: 0.5rem 1rem 0.5rem 0;
+    max-width: 700px;
+  }
+
+  .text-wrapper {
+    width: 70%;
+    margin: 8rem auto;
+  }
+
+  .left {
+    display: flex;
+  }
+
+  .left .image-wrapper {
+    width: 50%;
+    margin-right: 2rem;
+  }
+
+  .left .image-wrapper .snapshoot {
+    width: 100%;
+  }
+
+  .text-content {
+    margin: 1rem 4rem 3rem 0;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .right .image-wrapper {
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  .right .image-wrapper .snapshoot {
+    width: 100%;
+  }
+
+  .sixth-wrapper {
+    display: flex;
+  }
+
+  .sixth-wrapper .text-content {
+    width: 50%;
+  }
+
+  .sixth-wrapper .skills {
+    width: 50%;
+  }
+
+  .skills ul {
+    display: flex;
+  }
+
+  .skills li {
+   display: flex;
+   flex-flow: column;
+   margin: 5px;
+   padding: 0 0 0 10px;
+   align-items: start;
+  }
+
+  .skills li div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 5px 5px 10px 0px;
+    padding: 0;
+  }
+
+  .language-icon {
+    width: 100%;
+    margin: 0;
+  }
+
+  footer {
+    background-repeat: no-repeat;
+    background-image: url(./assets/footer-bg-desktop.png);
+    width: 100vw;
+    height: 80vh;
+    background-size: 100vw 100vh;
+    border-top-left-radius: 100px;
+  }
+
+  .form-container {
+    max-width: 500px;
+  }
+
+  .footer-container p {
+    text-align: center;
+    max-width: 500px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-field, textarea {
+    border-radius: 0;
+  }
+
+  .footer-container h2 {
+    margin: 100px auto 5px auto;
+  }
+
+  .right .text-content {
+    margin: 1rem 1rem 3rem 1rem;
+  }
 }
+
+
