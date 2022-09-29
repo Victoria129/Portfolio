@@ -299,7 +299,6 @@ textarea {
   text-align: center;
 }
 
-
 @media screen and (min-width: 768px) {
   body {
     overflow-x: hidden;
@@ -323,7 +322,7 @@ textarea {
   .hamburger {
     display: none;
     width: 0;
-    height: 0; 
+    height: 0;
   }
 
   .nav-list {
@@ -403,18 +402,18 @@ textarea {
   }
 
   .skills li {
-   display: flex;
-   flex-flow: column;
-   margin: 5px;
-   padding: 0 0 0 10px;
-   align-items: start;
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    padding: 0 0 0 10px;
+    align-items: start;
   }
 
   .skills li div {
     display: flex;
     justify-content: center;
     width: 50%;
-    margin: 5px 5px 10px 0px;
+    margin: 5px 5px 10px 0;
     padding: 0;
   }
 
@@ -447,7 +446,11 @@ textarea {
     align-items: center;
   }
 
-  .text-field, textarea {
+  .text-field {
+    border-radius: 0;
+  }
+
+  .textarea {
     border-radius: 0;
   }
 
@@ -459,5 +462,3 @@ textarea {
     margin: 1rem 1rem 3rem 1rem;
   }
 }
-
-
