@@ -359,6 +359,7 @@ textarea {
   .left {
     display: flex;
     width: 80%;
+    max-width: 1100px;
     margin: 3rem auto;
   }
 
@@ -396,7 +397,13 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
     width: 80%;
+    max-width: 1100px;
     margin: 3rem auto;
+  }
+
+  .right .text-content {
+    margin-right: auto;
+
   }
 
   .right .image-wrapper {
