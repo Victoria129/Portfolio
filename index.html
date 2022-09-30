@@ -15,17 +15,22 @@
 
   <body>
   <header>  
-    <nav class="header" id="logo">
-      <h3 class="poppins"><a href="#">My Logo</a></h3>
-      <img src="./assets/hamburger menu.png">
+    <nav class="header">
+      <h3 class="poppins" id="logo"><a href="#">My Logo</a></h3>
+      <img class="hamburger" src="./assets/hamburger menu.png">
+      <ul class="nav-list">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
   </header>
   
   <section class ="first-wrapper">
-
+    <div class="text-wrapper">
     <h1 class="poppins">I'm Victoria Glad to see you!</h1>
 
-    <p class="poppins-regular">
+    <p class="poppins-regular" id="fade-paragraph">
       I'm a software developer! I can help you build a product, feature 
       or website. Look through some of my work and experience! If you like 
       what you see and have a project you need coded, do not hesitate to contact me.
@@ -38,17 +43,19 @@
         <li class="a"><img  src="./assets/cat.svg"></li>
         <li class="a"><img  src="./assets/peace.svg"></li>
       </ul>
+    </div>
   </section>
   <br/>
   <br/>
 
   <section class="work-section">
 
-  <section class="inner-wrapper">
+  <section class="inner-wrapper left">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/second-wrapper.png">
+      <img class="snapshoot" src="./assets/project1.png">
     </div>
    
+  <div class="text-content">
     <h2 class="poppins">Tonic</h2>
     <ul class="poppins" id="about-ul">
       <li class="about-li" id="canopy">CANOPY</li>
@@ -63,13 +70,15 @@
       <li class="languages">javascript</li>
     </ul>
     <button class="poppins-regular">See Project</button>
+  </div>
   </section>
  
-  <section class="inner-wrapper">
+  <section class="inner-wrapper right">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/third-wrapper.png">
+      <img class="snapshoot" src="./assets/project 3.png">
     </div>
    
+    <div class="text-content">
     <h2 class="poppins">Multi-post <br/>Stories</h2>
     <ul class="poppins" id="about-ul">
       <li class="about-li" id="canopy">CANOPY</li>
@@ -84,13 +93,15 @@
       <li class="languages">javascript</li>
     </ul>
     <button class="poppins-regular">See Project</button>
+  </div>
   </section>
 
-  <section class="inner-wrapper">
+  <section class="inner-wrapper left">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/forth-wrapper.png">
+      <img class="snapshoot" src="./assets/project image 2.png">
     </div>
 
+    <div class="text-content">
     <h2 class="poppins">Tonic</h2>
     <ul class="poppins" id="about-ul">
       <li class="about-li" id="canopy">CANOPY</li>
@@ -105,13 +116,15 @@
       <li class="languages">javascript</li>
     </ul>
     <button class="poppins-regular">See Project</button>
+  </div>
   </section>
 
-  <section class="inner-wrapper">
+  <section class="inner-wrapper right">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/fifth-wrapper.png">
+      <img class="snapshoot" src="./assets/project 4.png">
     </div>
    
+    <div class="text-content">
     <h2 class="poppins">Multi-post <br/>Stories</h2>
     <ul class="poppins" id="about-ul">
       <li class="about-li" id="canopy">CANOPY</li>
@@ -126,11 +139,12 @@
       <li class="languages">javascript</li>
     </ul>
     <button class="poppins-regular">See Project</button>
+  </div>
   </section>
   </section>
 
   <section class = "sixth-wrapper">
-
+    <div class="text-content">
     <h1 class="poppins">About<br/>Myself</h1>
 
     <p class="poppins-regular">
@@ -147,20 +161,22 @@
         <li class="a"><img src="./assets/M.svg"></li>
       </ul>
 
-      <button class="poppins-regular" id="resume-button">See my resume</button>
+      <button class="poppins-regular btn" id="resume-button">See my resume</button>
+    </div>
       <br/>
       <br/>
-
+      <div class="skills">
       <h4 class="poppins-regular">Languages<img src="https://img.icons8.com/small/16/000000/expand-arrow.png" class="arrow"/></h4>
       <ul class="poppins-regular">
-        <li class="language-end"><img class="language-icon" src="./assets/javascript.png">Javascript</li>
-        <li class="language-end"><img class="language-icon" src="./assets/html.png">HTML</li>
-        <li class="language-end"><img class="language-icon" src="./assets/css.png">CSS</li>
+        <li class="language-end"><div><img class="language-icon" src="./assets/javascript.png"></div>Javascript</li>
+        <li class="language-end"><div><img class="language-icon" src="./assets/html.png"></div>HTML</li>
+        <li class="language-end"><div><img class="language-icon" src="./assets/css.png"></div>CSS</li>
       </ul>
       <h4 class="poppins-regular">Frameworks<img src="https://img.icons8.com/small/16/000000/forward.png" class="arrow"/></h4>
       <hr/>
       <h4 class="poppins-regular">Skills<img src="https://img.icons8.com/small/16/000000/forward.png" class="arrow"/></h4>
       <hr/>
+    </div>
 
   </section>
   <footer>
@@ -190,8 +206,7 @@
           <textarea required id="message" maxlength="500" name="message" placeholder="Write your message here"></textarea>
         </li>
       </ul>
-
-        <button type="submit">Get In Touch</button>
+        <button class="footer-btn" type="submit">Get In Touch</button>
     </form>
   </div>
 </div>
