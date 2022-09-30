@@ -487,7 +487,7 @@ textarea {
     background-repeat: no-repeat;
     background-image: url(./assets/footer-bg-desktop.png);
     width: 100vw;
-    height: 80vh;
+    height: auto;
     background-size: 100vw 100vh;
     border-top-left-radius: 100px;
   }
