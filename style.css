@@ -58,16 +58,17 @@ a {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   padding-top: 30px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  font-size: 16px;
 }
 
 h3 {
@@ -369,11 +370,13 @@ textarea {
   .text-wrapper h1 {
     max-width: 400px;
     margin: 0;
+    font-size: 48px;
   }
 
   .text-wrapper p {
     margin: 0.5rem 1rem 0.5rem 0;
     max-width: 700px;
+    font-size: 20px;
   }
 
   .text-wrapper {
