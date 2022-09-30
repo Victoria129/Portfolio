@@ -49,17 +49,23 @@ a {
 
 .nav-list a {
   color: #344563;
+  transition: all 0.2s linear;
+}
+
+.nav-list a:hover {
+  color: #6070ff;
+  font-weight: 700;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   line-height: 52px;
   padding-top: 30px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -152,6 +158,20 @@ button {
   font-weight: 500;
   border: 1px solid #396df2;
   transition: all 0.5s linear;
+}
+
+#resume-button {
+  transition: all 0.5s linear;
+}
+
+#resume-button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+#resume-button:active {
+  background-color: #2230d2;
+  color: white;
 }
 
 button:hover {
@@ -347,8 +367,8 @@ textarea {
   }
 
   .text-wrapper h1 {
-    max-width: 330px;
-    margin: 1rem 1rem 0.5rem 0;
+    max-width: 400px;
+    margin: 0;
   }
 
   .text-wrapper p {
