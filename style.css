@@ -496,3 +496,28 @@ textarea {
     margin: 100px auto 5px auto;
   }
 }
+#logo {
+  animation: rotate 3s 1;
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+#fade-paragraph {
+  animation: fade 5s 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
