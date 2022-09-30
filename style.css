@@ -403,7 +403,6 @@ textarea {
 
   .right .text-content {
     margin-right: auto;
-    margin: 1rem 1rem 3rem 1rem;
   }
 
   .right .image-wrapper {
@@ -417,12 +416,13 @@ textarea {
 
   .sixth-wrapper {
     display: flex;
-    padding: 5rem 10rem;
+    padding: 5rem 7rem;
     justify-content: space-between;
   }
 
   .sixth-wrapper .text-content {
     width: 50%;
+    margin: 0 2rem 0 0;
   }
 
   .sixth-wrapper .skills {
