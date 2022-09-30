@@ -42,13 +42,13 @@ nav {
   height: 0;
 }
 
-.nav-list a {
-  color: #344563;
-}
-
 a {
   color: #6070ff;
   text-decoration: none;
+}
+
+.nav-list a {
+  color: #344563;
 }
 
 h1 {
