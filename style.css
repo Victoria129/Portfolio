@@ -403,7 +403,7 @@ textarea {
 
   .right .text-content {
     margin-right: auto;
-
+    margin: 1rem 1rem 3rem 1rem;
   }
 
   .right .image-wrapper {
@@ -489,9 +489,5 @@ textarea {
 
   .footer-container h2 {
     margin: 100px auto 5px auto;
-  }
-
-  .right .text-content {
-    margin: 1rem 1rem 3rem 1rem;
   }
 }
