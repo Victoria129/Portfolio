@@ -150,11 +150,13 @@ button {
 }
 
 button:hover {
-  box-shadow: 0 2px #999;
+  background-color: #6070ff;
+  color: white;
 }
 
 button:active {
-  transform: translateY(2px);
+  background-color: #2230d2;
+  color: white;
 }
 
 .image-wrapper {
@@ -356,10 +358,12 @@ textarea {
 
   .left {
     display: flex;
+    width: 80%;
+    margin: 3rem auto;
   }
 
   .left .image-wrapper {
-    width: 50%;
+    max-width: 500px;
     margin-right: 2rem;
   }
 
@@ -368,16 +372,35 @@ textarea {
   }
 
   .text-content {
-    margin: 1rem 4rem 3rem 0;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 auto;
+  }
+
+  .text-content h2 {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0;
+  }
+
+  .text-content p {
+    margin: 0;
+  }
+
+  .text-content button {
+    margin-bottom: auto;
   }
 
   .right {
     display: flex;
     flex-direction: row-reverse;
+    width: 80%;
+    margin: 3rem auto;
   }
 
   .right .image-wrapper {
-    width: 50%;
+    max-width: 500px;
     margin-left: 2rem;
   }
 
@@ -387,6 +410,8 @@ textarea {
 
   .sixth-wrapper {
     display: flex;
+    padding: 5rem 10rem;
+    justify-content: space-between;
   }
 
   .sixth-wrapper .text-content {
@@ -405,8 +430,9 @@ textarea {
     display: flex;
     flex-flow: column;
     margin: 5px;
-    padding: 0 0 0 10px;
+    padding: 0 0 10px 10px;
     align-items: start;
+    width: 100px;
   }
 
   .skills li div {
