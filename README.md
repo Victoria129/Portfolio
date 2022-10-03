@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> A test Portfolio with Figma
+> Victoria's Portfolio. Please visit my live portfolio page using this [link](https://victoria129.github.io/). 
 
 
 ## Built With
