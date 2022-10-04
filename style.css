@@ -367,14 +367,14 @@ textarea {
   }
 
   .text-wrapper h1 {
-    max-width: 400px;
+    max-width: 1000px;
     margin: 0;
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .text-wrapper p {
     margin: 0.5rem 1rem 0.5rem 0;
-    max-width: 700px;
+    max-width: 1000px;
     font-size: 20px;
   }
 
