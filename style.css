@@ -62,6 +62,11 @@ header {
   margin: 1.5rem 0;
 }
 
+a {
+  color: #6070ff;
+  text-decoration: none;
+}
+
 .menu-links a {
   color: #fff;
   font-size: 30px;
@@ -95,11 +100,6 @@ nav {
   display: none;
   width: 0;
   height: 0;
-}
-
-a {
-  color: #6070ff;
-  text-decoration: none;
 }
 
 .nav-list a {
