@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Victoria's Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
     <link
       rel="stylesheet"
@@ -16,43 +16,53 @@
   <body>
   <header>  
     <nav class="header">
-      <h3 class="poppins" id="logo"><a href="#">My Logo</a></h3>
-      <img class="hamburger" src="./assets/hamburger menu.png">
+      <h3 class="poppins" id="logo"><a href="#home">Victoria</a></h3>
+      <img class="hamburger" src="./assets/hamburger menu.png" alt="hamburger menu image">
       <ul class="nav-list">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#work">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
-  <section class ="first-wrapper">
+  <div class="mobile-menu poppins">
+    <div class="close-btn-container">
+      <img class="close-btn" src = "./assets/close-btn.png">
+    </div>
+    <ul class="menu-list">
+      <li class="menu-links"><a href="#work">Portfolio</a></li>
+      <li class="menu-links"><a href="#about">About</a></li>
+      <li class="menu-links"><a href="#contact">Contact</a></li>
+    </ul>
+
+  </div>
+  <section class ="first-wrapper" id="home">
     <div class="text-wrapper">
-    <h1 class="poppins">I'm Victoria Glad to see you!</h1>
+    <h1 class="poppins">I'm Victoria <br/> Glad to see you!</h1>
 
     <p class="poppins-regular" id="fade-paragraph">
       I'm a software developer! I can help you build a product, feature 
-      or website. Look through some of my work and experience! If you like 
-      what you see and have a project you need coded, do not hesitate to contact me.
+      or website. Look <br/> through some of my work and experience! If you like 
+      what you see and have a <br/> project you need coded, do not hesitate to contact me.
     </p>
     <h3 class="poppins-regular">LET'S CONNECT</h3>
       <ul class="social-media-icons">
-        <li class="a"><img  src="./assets/twitter.svg"></li>
-        <li class="a"><img  src="./assets/Linkedin icon.svg"></li>
-        <li class="a"><img  src="./assets/M.svg"></li>
-        <li class="a"><img  src="./assets/cat.svg"></li>
-        <li class="a"><img  src="./assets/peace.svg"></li>
+        <li class="a"><img  src="./assets/twitter.svg" alt="Twitter icon"></li>
+        <li class="a"><img  src="./assets/Linkedin icon.svg" alt="Linkedin icon"></li>
+        <li class="a"><img  src="./assets/M.svg" alt="Medium icon"></li>
+        <li class="a"><img  src="./assets/cat.svg" alt="GitHub icon"></li>
+        <li class="a"><img  src="./assets/peace.svg" alt="Angellist icon"></li>
       </ul>
     </div>
   </section>
   <br/>
   <br/>
 
-  <section class="work-section">
+  <section class="work-section" id="work">
 
   <section class="inner-wrapper left">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/project1.png">
+      <img class="snapshoot" src="./assets/project1.png" alt="Tanner Christensen's portfolio image">
     </div>
    
   <div class="text-content">
@@ -75,7 +85,7 @@
  
   <section class="inner-wrapper right">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/project 3.png">
+      <img class="snapshoot" src="./assets/project 3.png" alt="Miglena Tadic's nature image">
     </div>
    
     <div class="text-content">
@@ -98,7 +108,7 @@
 
   <section class="inner-wrapper left">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/project image 2.png">
+      <img class="snapshoot" src="./assets/project image 2.png" alt="Image displaying a student's availability">
     </div>
 
     <div class="text-content">
@@ -121,7 +131,7 @@
 
   <section class="inner-wrapper right">
     <div class="image-wrapper">
-      <img class="snapshoot" src="./assets/project 4.png">
+      <img class="snapshoot" src="./assets/project 4.png" alt="Image displaying Professional art printing">
     </div>
    
     <div class="text-content">
@@ -143,7 +153,7 @@
   </section>
   </section>
 
-  <section class = "sixth-wrapper">
+  <section class = "sixth-wrapper" id="about">
     <div class="text-content">
     <h1 class="poppins">About<br/>Myself</h1>
 
@@ -154,11 +164,11 @@
     </p>
     <h3 class="poppins-regular">LET'S CONNECT</h3>
       <ul class="social-media-icons">
-        <li class="a"><img src="./assets/cat.svg"></li>
-        <li class="a"><img src="./assets/Linkedin icon.svg"></li>
-        <li class="a"><img src="./assets/peace.svg"></li>
-        <li class="a"><img src="./assets/twitter.svg"></li>
-        <li class="a"><img src="./assets/M.svg"></li>
+        <li class="a"><img src="./assets/cat.svg" alt="GitHub icon"></li>
+        <li class="a"><img src="./assets/Linkedin icon.svg" alt="Linkedin icon"></li>
+        <li class="a"><img src="./assets/peace.svg" alt="Angellist icon"></li>
+        <li class="a"><img src="./assets/twitter.svg" alt="Twitter icon"></li>
+        <li class="a"><img src="./assets/M.svg" alt="Medium icon"></li>
       </ul>
 
       <button class="poppins-regular btn" id="resume-button">See my resume</button>
@@ -166,21 +176,21 @@
       <br/>
       <br/>
       <div class="skills">
-      <h4 class="poppins-regular">Languages<img src="https://img.icons8.com/small/16/000000/expand-arrow.png" class="arrow"/></h4>
+      <h4 class="poppins-regular">Languages<img src="https://img.icons8.com/small/16/000000/expand-arrow.png" alt="arrow" class="arrow"/></h4>
       <ul class="poppins-regular">
-        <li class="language-end"><div><img class="language-icon" src="./assets/javascript.png"></div>Javascript</li>
-        <li class="language-end"><div><img class="language-icon" src="./assets/html.png"></div>HTML</li>
-        <li class="language-end"><div><img class="language-icon" src="./assets/css.png"></div>CSS</li>
+        <li class="language-end"><div><img class="language-icon" src="./assets/javascript.png" alt="Javascript icon"></div>Javascript</li>
+        <li class="language-end"><div><img class="language-icon" src="./assets/html.png" alt="HTML icon"></div>HTML</li>
+        <li class="language-end"><div><img class="language-icon" src="./assets/css.png" alt="CSS icon"></div>CSS</li>
       </ul>
-      <h4 class="poppins-regular">Frameworks<img src="https://img.icons8.com/small/16/000000/forward.png" class="arrow"/></h4>
+      <h4 class="poppins-regular">Frameworks<img src="https://img.icons8.com/small/16/000000/forward.png" alt="arrow" class="arrow"></h4>
       <hr/>
-      <h4 class="poppins-regular">Skills<img src="https://img.icons8.com/small/16/000000/forward.png" class="arrow"/></h4>
+      <h4 class="poppins-regular">Skills<img src="https://img.icons8.com/small/16/000000/forward.png" alt="arrow" class="arrow"></h4>
       <hr/>
     </div>
 
   </section>
   <footer>
-    <div class="footer-container">
+    <div class="footer-container" id="contact">
     <h2 class="poppins contact">Contact me</h2>
     <p class="poppins-regular">If you have an application you are interested in developing, 
       a feature that you need built or a project that needs coding. 
@@ -211,6 +221,6 @@
   </div>
 </div>
   </footer>
-
+<script src="app.js"></script>
   </body>
 </html>
