@@ -37,7 +37,6 @@ header {
   transform: translateX(-100%);
   backdrop-filter: blur(7px);
   mix-blend-mode: multiply;
-  
 }
 
 .show-menu {
