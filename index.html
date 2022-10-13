@@ -7,13 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victoria's Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
   </head>
 
   <body>
+  <!-- html for the pop ups -->
+
+  <div class="modal">
+
+  <div class="pop-up-wrap">
+    <div class="pop-up-nav">
+      <h2 class="poppins" id="logo">Tonic</h2>
+      <span class = "pop-up-closeBtn">&times;</span>
+    </div>
+
+  <div class="pop-up-about">
+      <ul class="poppins canopy-modal">
+        <li class="about-li" id="canopy">CANOPY</li>
+        <li class="about-li">Back End Dev</li>
+        <li class="about-li">2015</li>
+      </ul>
+  </div>
+
+  <div class="pop-up-image-wrap">
+    <img class="snapshoot" src="./assets/project1.png" alt="Tanner Christensen's portfolio image">
+  </div>
+     
+  <div class="pop-up-text-content">
+    <p class="poppins-regular" id="modal-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+    <div class="tag-wrap">
+    <ul class="poppins-regular language-button">
+      <li class="languages">html</li>
+      <li class="languages">css</li>
+      <li class="languages">javascript</li>
+    </ul>
+  <div class="pop-up-btn">
+    <button class="poppins-regular see-live-btn">See live<img class="live-icon" src="./assets/live-icon.png"/></button>
+    <button class="poppins-regular see-source-btn">See source<img id="github-modal-icon" src="./assets/github-icon.png"/></button>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<!-- End of html for pop up -->
+
   <header>  
     <nav class="header">
       <h3 class="poppins" id="logo"><a href="#home">Victoria</a></h3>
@@ -34,8 +71,8 @@
       <li class="menu-links"><a href="#about">About</a></li>
       <li class="menu-links"><a href="#contact">Contact</a></li>
     </ul>
-
   </div>
+  
   <section class ="first-wrapper" id="home">
     <div class="text-wrapper">
     <h1 class="poppins">I'm Victoria <br/> Glad to see you!</h1>
@@ -78,7 +115,7 @@
       <li class="languages">css</li>
       <li class="languages">javascript</li>
     </ul>
-    <button class="poppins-regular">See Project</button>
+    <button class="poppins-regular see-project-btn" data-id="0">See Project</button>
   </div>
   </section>
   </section>
@@ -102,7 +139,7 @@
       <li class="languages">css</li>
       <li class="languages">javascript</li>
     </ul>
-    <button class="poppins-regular">See Project</button>
+    <button class="poppins-regular see-project-btn" data-id="1">See Project</button>
   </div>
   </section>
 
@@ -125,7 +162,7 @@
       <li class="languages">css</li>
       <li class="languages">javascript</li>
     </ul>
-    <button class="poppins-regular">See Project</button>
+    <button class="poppins-regular see-project-btn" data-id="2">See Project</button>
   </div>
   </section>
 
@@ -148,7 +185,7 @@
       <li class="languages">css</li>
       <li class="languages">javascript</li>
     </ul>
-    <button class="poppins-regular">See Project</button>
+    <button class="poppins-regular see-project-btn" data-id="3">See Project</button>
   </div>
   </section>
   </section>
