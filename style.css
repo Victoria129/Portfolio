@@ -33,10 +33,6 @@ body {
   background-color: #c1c7d0;
 }
 
-.languages {
-  margin-bottom: 1rem;
-}
-
 .language-button {
   margin: 5px;
 }
@@ -64,7 +60,15 @@ body {
   height: 1.5rem;
 }
 
-.see-live-btn, .see-source-btn {
+.see-live-btn {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 8.5rem;
+  margin-right: 0.7rem;
+}
+
+.see-source-btn {
   display: flex;
   align-items: center;
   float: left;
@@ -475,12 +479,10 @@ textarea {
     height: auto;
     width: 100%;
   }
-  
 
   #modal-text {
-   max-width: 65%;
-   margin-right: 10px;
-
+    max-width: 65%;
+    margin-right: 10px;
   }
 
   .tag-wrap {
