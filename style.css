@@ -18,6 +18,92 @@ body {
   padding: 0;
 }
 
+/* pop up styling */
+.modal {
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #c1c7d0;
+}
+
+.language-button {
+  margin: 5px;
+}
+
+.pop-up-wrap {
+  background-color: #fff;
+  width: 80%;
+  height: 90%;
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 0 1rem 1rem;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.canopy-modal {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0;
+  margin-top: 0;
+  height: 1.5rem;
+}
+
+.see-live-btn {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 8.5rem;
+  margin-right: 0.7rem;
+}
+
+.see-source-btn {
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 8.5rem;
+  margin-right: 0.7rem;
+}
+
+.live-icon {
+  margin-left: 15px;
+}
+
+#github-modal-icon {
+  margin-left: auto;
+}
+
+.pop-up-text-content {
+  display: block;
+  box-sizing: border-box;
+}
+
+.pop-up-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+}
+
+.pop-up-closeBtn {
+  float: right;
+  font-size: 30px;
+  color: #000;
+}
+
+.pop-up-closeBtn:hover {
+  cursor: pointer;
+}
+
+/* end of pop up styling */
 header {
   position: fixed;
   top: 0;
@@ -383,6 +469,33 @@ textarea {
 @media screen and (min-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+
+  .pop-up-wrap {
+    height: auto;
+    width: 100%;
+  }
+
+  #modal-text {
+    max-width: 65%;
+    margin-right: 10px;
+  }
+
+  .tag-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pop-up-text-content {
+    display: flex;
+  }
+
+  .see-live-btn {
+    max-width: 9rem;
+  }
+
+  .see-source-btn {
+    max-width: 9rem;
   }
 
   .first-wrapper {
