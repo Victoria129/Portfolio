@@ -129,8 +129,8 @@ input.addEventListener('keyup', ()=>{
   }else if(input.name === 'textarea'){
     formData.message = input.value;
   }
-  localStorage.setItem('formInputs', JSON.stringify(formData));
   
+  localStorage.setItem('formInputs', formData);  
 }));
 
 const getInputData = () => {
