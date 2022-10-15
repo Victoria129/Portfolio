@@ -109,4 +109,42 @@ navLinks.forEach(function(link) {
   });
 }) ;
 
+formDesktop.addEventListener('submit', (e) =>{
+  const email = document.querySelector('.email-desktop').value;
+  e.preventDefault();
+  if(email.toLowerCase() === email){
+    formDesktop.submit();
+  } else {
+    document.querySelector('#error-desk').textContent='Email should include only lowercase!';
+  }
+})
+
+
+document.querySelectorAll('.text-field').forEach((input)=>
+input.addEventListener('keyup', ()=>{
+  if(input.name ==='name'){
+    formData.name = input.value;
+  } else if(input.type ==='email'){
+    formData.email = input.value;
+  }else if(input.name === 'textarea'){
+    formData.message = input.value;
+  }
+  
+  localStorage.setItem('formInputs', formData);  
+}));
+
+const getInputData = () => {
+  if(localStorage.getItem('formInputs') !== null){
+    let localFormData = JSON.parse(localStorage.getItem('formInputs'));
+
+    document.getElementById('name').value = localFormData.name;
+    document.getElementById('email').value = localFormData.email;
+    document.getElementById('textarea').value = localFormData.message;
+
+    formData.name = localFormData.name;
+    formData.email = localFormData.email;
+    formData.message = localFormData.message;
+    
+  }
+};
 
