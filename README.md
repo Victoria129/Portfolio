@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
+This is a portfolio project which includes a home page ,an about page, and a contact page built with JavaScript, HTML, CSS.
 
 ## Victoria's Portfolio.
 [LIVE DEMO](https://victoria129.github.io/)
